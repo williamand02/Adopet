@@ -1,0 +1,16 @@
+@import url('./styles/header.css');
+
+:root {
+    --azul: #3772FF;
+    --verde: #36D6AD;
+    --coral: #FC7071;
+    --creme: #FCF0E3;
+    --cinza-escuro: #737380;
+    --cinza-medio: #BCBCBC;
+    --cinza-claro: #F6F6F6;
+    --branco:#FFFFFF;
+}
+
+body{
+    background-color: var(--azul);
+}

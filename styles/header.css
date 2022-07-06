@@ -1,0 +1,32 @@
+.header{
+    background-image: url('../img/Forma1.svg');
+    background-repeat: no-repeat;
+    min-height: 295px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-menu{
+    flex-grow: 1;
+    align-items: center;
+    padding: 2em 2em;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.user{
+    flex-grow: 1;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    padding: 2em 2em;
+    min-height: 40px;
+}
+
+.user a{
+    display: none;
+}
