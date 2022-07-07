@@ -1,4 +1,6 @@
 @import url('./styles/header.css');
+@import url('./styles/footer.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Josefin+Sans:wght@400;700&family=Poppins:wght@400;500;600&display=swap');
 
 :root {
     --azul: #3772FF;
@@ -8,9 +10,9 @@
     --cinza-escuro: #737380;
     --cinza-medio: #BCBCBC;
     --cinza-claro: #F6F6F6;
-    --branco:#FFFFFF;
+    --branco: #FFFFFF;
+    --fonte-principal: "Poppins";
 }
-
 body{
-    background-color: var(--azul);
+    font-family: var(--fonte-principal);
 }
