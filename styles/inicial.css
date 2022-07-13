@@ -1,0 +1,7 @@
+body {
+    font-family: var(--fonte-principal);
+    background-image: url('../img/FormaTopo.svg'), url('../img/FormaMeioDir.svg'), url('../img/Ilustração1.svg');
+    background-repeat: no-repeat;
+    background-position: left top, right center, bottom 5em  center;
+    min-height: 100vh;
+}

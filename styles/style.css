@@ -1,5 +1,5 @@
-@import url('./styles/header.css');
-@import url('./styles/footer.css');
+@import url('./header.css');
+@import url('./footer.css');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Josefin+Sans:wght@400;700&family=Poppins:wght@400;500;600&display=swap');
 
 :root {
@@ -15,19 +15,13 @@
     --fonte-secundaria: 'IBM Plex Sans', sans-serif;
 }
 
-body {
-    font-family: var(--fonte-principal);
-    background-image: url('./img/FormaTopo.svg'), url('./img/FormaMeio.svg'), url('./img/Ilustração1.svg');
-    background-repeat: no-repeat;
-    background-position: left top, right center, bottom 5em  center;
-    min-height: 100vh;
-}
-.bg-azul{
-    background-color: var(--azul);
+body{
     text-align: center;
     display: flex;
     flex-direction: column;
-
+}
+.bg-azul{
+    background-color: var(--azul);
 }
 
 .conteudo {
@@ -70,5 +64,5 @@ body {
     margin: 0.5em auto;
     border-radius: 5px;
     box-shadow: 2px 2px 4px 0px #00000040;
-
+    border: none;
 }

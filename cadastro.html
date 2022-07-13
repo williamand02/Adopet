@@ -1,12 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cadastro</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/cadastro.css">
 </head>
+
 <body>
-    <h1>cadastro</h1>
+    <header class="header">
+        <div class="container">
+            <ul class="list-menu">
+                <li class="list-menu__item">
+                    <a href="#"><img src="./img/Casa.svg" alt="Página inicial"></a>
+                </li>
+                <li class="list-menu__item">
+                    <a href="#"><img src="./img/Mensagens.svg" alt="Caixa de mensagens"></a>
+                </li>
+            </ul>
+            <div class="user">
+                <a href="#"><img src="./img/Usuário.svg" alt="Icone de home"></a>
+            </div>
+        </div>
+    </header>
+    <main class="cadastro">
+        <img src="./img/LogoAzul.png" alt="Logo da adopet">
+        <p class="cadastro__texto">Ainda não tem cadastro?</p>
+        <p class="cadastro__texto">Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
+        <form class="form-cadastro">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" type="text" placeholder="Escolha seu melhor email">
+            </div>
+            <div class="form-group">
+                <label for="nome">Nome</label>
+                <input id="nome" type="text" placeholder="Digite seu nome completo">
+            </div>
+            <div class="form-group">
+                <label for="senha">Senha</label>
+                <input id="senha" class="password" type="password" placeholder="Crie uma senha">
+            </div>
+            <div class="form-group">
+                <label for="confirma-senha">Confirma sua senha</label>
+                <input id="confirma-senha" class="password" type="password" placeholder="Repita a senha criada acima">
+            </div>
+            <button class="botao">Cadastrar</button>
+        </form>
+    </main>
+    <footer class="footer">
+        <p class="footer__text">2022 - Desenvolvido por Alura</p>
+    </footer>
 </body>
+
 </html>
