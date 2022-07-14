@@ -8,13 +8,13 @@ body {
     background-position: top right, left top, left 70% ;
     min-height: 100vh;
 }
-.cadastro{
+.login{
     text-align: center;
     width: 85%;
     margin: 0 auto;
     flex-grow: 1;
 }
-.cadastro__texto{
+.login__texto{
     color: var(--azul);
     font-family: var(--fonte-principal);
     font-size: 16px;
@@ -22,7 +22,7 @@ body {
     line-height: 21px;
     letter-spacing: 0px;
     text-align: center;
-    margin-top: 1em;
+    margin: 2em 0;
 }
 .form-group{
 
@@ -64,8 +64,13 @@ input::placeholder{
     background-repeat: no-repeat;
     background-position: 100%;
 }
-
-.cadastro_img{
+.login_img{
     margin-top: 2em;
 }
-
+.esqueci-senha{
+    color: var(--coral);
+    margin-bottom: 1em;
+}
+.botao{
+    margin-top: 2em;
+}
