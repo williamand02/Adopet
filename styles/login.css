@@ -22,7 +22,8 @@ body {
     line-height: 21px;
     letter-spacing: 0px;
     text-align: center;
-    margin: 2em 0;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 .form-group{
 

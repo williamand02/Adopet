@@ -1,0 +1,85 @@
+{
+    "animais": [
+        {
+            "imagem" :"./img/animais/Imagem-Dunga.png",
+            "nome" :"Dunga",
+            "idade" :"2 anos",
+            "porte" :"Porte pequeno",
+            "caracteristicas" :"Calmo e educado",
+            "cidade" :"Rio de Janeiro",
+            "estado" :"RJ"
+        },
+        {
+            "imagem" :"./img/animais/Imagem-Felícia.png",
+            "nome" :"Felícia",
+            "idade" :"3 meses",
+            "porte" :"Porte pequeno",
+            "caracteristicas" :"Ativa e carinhosa",
+            "cidade" :"Nova Iguaçu",
+            "estado" :"RJ"
+        },
+        {
+            "imagem" :"./img/animais/Imagem-sirius.png",
+            "nome" :"Sirius",
+            "idade" :"6 meses",
+            "porte" :"Porte grande",
+            "caracteristicas" :"Ativo e educado",
+            "cidade" :"Duque de Caxias",
+            "estado" :"RJ"
+        },
+        {
+            "imagem" :"./img/animais/Imagem-Fiona.png",
+            "nome" :"Fiona",
+            "idade" :"3 anos",
+            "porte" :"Porte pequeno",
+            "caracteristicas" :"Calma e carinhosa",
+            "cidade" :"São Gonçalo ",
+            "estado" :"(RJ)"
+        },
+        {
+            "imagem" :"./img/animais/Imagem-Sid.png",
+            "nome" :"Sid",
+            "idade" :"8 meses",
+            "porte" :"Porte médio/grande",
+            "caracteristicas" :"Brincalhão e amável",
+            "cidade" :"Rio de Janeiro (RJ) ",
+            "estado" :"(RJ)"
+        },
+        {
+            "imagem" :"./img/animais/Imagem-Yoda.png",
+            "nome" :"Yoda",
+            "idade" :"1 ano",
+            "porte" :"Porte médio",
+            "caracteristicas" :"Ativo e carinhoso",
+            "cidade" :"Nova Iguaçu  ",
+            "estado" :"(RJ)"
+        },
+        {
+            "imagem" :"./img/animais/Imagem-Lua.png",
+            "nome" :"Lua",
+            "idade" :"6 meses",
+            "porte" :"Porte médio",
+            "caracteristicas" :"Ativa e carinhosa",
+            "cidade" :"Duque de Caxias ",
+            "estado" :"(RJ)"
+        },
+        {
+            "imagem" :"./img/animais/Imagem-Amora.png",
+            "nome" :"Amora",
+            "idade" :"45 dias",
+            "porte" :"Porte grande",
+            "caracteristicas" :"Calma e carinhosa",
+            "cidade" :"São Gonçalo",
+            "estado" :"(RJ)"
+        },
+        {
+            "imagem" :"./img/animais/Imagem-Zelda.png",
+            "nome" :"Zelda",
+            "idade" :"5 meses",
+            "porte" :"Porte médio",
+            "caracteristicas" :"Ativa e amável",
+            "cidade" :"Rio de Janeiro ",
+            "estado" :"(RJ)"
+        }
+    ]
+  }

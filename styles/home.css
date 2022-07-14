@@ -1,0 +1,100 @@
+body {
+    font-family: var(--fonte-principal);
+    background-image: 
+    url('../img/FormaTopo.svg');
+    background-repeat: no-repeat;
+    background-position: left top;
+    min-height: 100vh;
+}
+.user a {
+    display: block;
+}
+.home{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    flex-grow: 1;
+}
+.home__texto{
+    color: var(--azul);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin: 2em auto;
+    width: 60%;
+}
+.lista-animais{
+    list-style-type: none;
+}
+
+.lista-animais__item{
+    display: flex;
+    /* background-color: var(--cinza-claro); */
+    background-color: #bcbcbc21;
+    margin-bottom: 1em;
+    padding: 1em 1em;
+}
+.lista-animais__imagem{
+    margin: auto 1em;
+    height: max-content;
+}
+.lista-animais__informacoes{
+    margin: 1em;
+}
+
+.informacoes__nome{
+    color: var(--azul);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 1em;
+
+}
+.informacoes__idade,
+.informacoes__porte,
+.informacoes__caracteristicas
+{
+    color: var(--cinza-escuro);
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.informacoes__cidade-estado{
+    font-family: var(--fonte-principal);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 2em;
+}
+
+.informacoes__responsavel{
+    display: flex;
+    margin: .5em 0;
+}
+
+.responsavel__imagem{
+    margin-right: .5em;
+}
+.responsavel__texto{
+    font-family: var(--fonte-principal);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+
+
+
